@@ -4,3 +4,6 @@ from django.shortcuts import redirect
 
 def homepage (request):
     return render(request, 'homepage/homepage.html', {}) 
+
+def post_list(request):
+    return render(request, 'homepage/post_list.html', {})
